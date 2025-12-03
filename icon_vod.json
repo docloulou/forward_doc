@@ -1,66 +1,34 @@
 {
-    "name": "Forward_icon",
-    "description": "by 😴",
+    "name": "Network_icon",
+    "description": "by Doc",
     "icons": [
       {
-        "name": "xiaoxin",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin.png"
+        "name": "Netflix",
+        "url": "https://github.com/tv-logo/tv-logos/blob/ab7240be559ec8b0e13b877433ff90a460412e86/misc/media/netflix.png"
       },
       {
-        "name": "xiaoxin_family",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_family.png"
+        "name": "Disney+",
+        "url": "https://github.com/tv-logo/tv-logos/blob/ab7240be559ec8b0e13b877433ff90a460412e86/misc/media/disney-plus.png"
       },
       {
-        "name": "xiaoxin_sheshou",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_sheshou.png"
+        "name": "Apple TV+",
+        "url": "https://github.com/tv-logo/tv-logos/blob/ab7240be559ec8b0e13b877433ff90a460412e86/misc/media/apple-tv-plus.png"
       },
       {
-        "name": "xiaoxin_zhenhuan_1",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_1.png"
+        "name": "HBO Max",
+        "url": "https://github.com/tv-logo/tv-logos/blob/ab7240be559ec8b0e13b877433ff90a460412e86/misc/media/hbo-max-alt.png"
       },
       {
-        "name": "xiaoxin_zhenhuan_2",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_2.png"
+        "name": "Hulu",
+        "url": "https://github.com/tv-logo/tv-logos/blob/ab7240be559ec8b0e13b877433ff90a460412e86/misc/media/hulu.png"
       },
       {
-        "name": "xiaoxin_zhenhuan_3",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_3.png"
+        "name": "Prime Video",
+        "url": "https://github.com/tv-logo/tv-logos/blob/ab7240be559ec8b0e13b877433ff90a460412e86/misc/media/amazon-prime.png"
       },
       {
-        "name": "xiaoxin_zhenhuan_4",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_4.png"
-      },
-      {
-        "name": "xiaoxin_zhenhuan_5",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_5.png"
-      },
-      {
-        "name": "xiaoxin_zhenhuan_6",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_6.png"
-      },
-      {
-        "name": "xiaoxin_zhenhuan_7",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_7.png"
-      },
-      {
-        "name": "xiaoxin_zhenhuan_8",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_8.png"
-      },
-      {
-        "name": "xiaoxin_zhenhuan_9",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_9.png"
-      },
-      {
-        "name": "xiaoxin_zhenhuan_10",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_10.png"
-      },
-      {
-        "name": "xiaoxin_zhenhuan_11",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_11.png"
-      },
-      {
-        "name": "xiaoxin_zhenhuan_12",
-        "url": "https://raw.githubusercontent.com/nature-h/Forward_icon/main/xiaoxin_zhenhuan_12.png"
+        "name": "Paramount+",
+        "url": "https://github.com/tv-logo/tv-logos/blob/ab7240be559ec8b0e13b877433ff90a460412e86/misc/media/paramount-plus.png"
       }
     ]
   }
