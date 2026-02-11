@@ -36,6 +36,9 @@
                 {
                   "kind" : "tmdbDiscover",
                   "payload" : {
+                    "excludeKeywords" : [
+                      9716
+                    ],
                     "limit" : 200,
                     "sortBy" : "primary_release_date.desc",
                     "type" : "movie",
@@ -48,6 +51,9 @@
                 {
                   "kind" : "tmdbDiscover",
                   "payload" : {
+                    "excludeKeywords" : [
+                      359985
+                    ],
                     "limit" : 200,
                     "sortBy" : "first_air_date.desc",
                     "type" : "tv",
@@ -1224,30 +1230,6 @@
       "dataSource" : {
         "kind" : "traktList",
         "payload" : {
-          "listName" : "Daily Picks",
-          "listSlug" : "daily-picks",
-          "traktId" : 31897770,
-          "username" : "tvgeniekodi"
-        }
-      },
-      "id" : "trakt.EF19B376-7017-4DBC-AFDC-9286AE69401D",
-      "limit" : 50,
-      "presentation" : {
-        "aspectRatio" : "poster",
-        "badges" : {
-          "providers" : false,
-          "ratings" : true
-        },
-        "cardStyle" : "medium"
-      },
-      "title" : "Daily Picks",
-      "type" : "row.classic"
-    },
-    {
-      "cacheTTL" : 3600,
-      "dataSource" : {
-        "kind" : "traktList",
-        "payload" : {
           "listName" : "Latest Movies",
           "listSlug" : "latest-movies",
           "traktId" : 30828678,
@@ -1414,50 +1396,80 @@
       "type" : "row.classic"
     },
     {
+      "cacheTTL" : 3600,
       "dataSource" : {
-        "kind" : "collection",
+        "kind" : "traktList",
         "payload" : {
-          "items" : [
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Watchlist: Movies",
-                    "listSlug" : "__watchlist_movies__",
-                    "traktId" : -11,
-                    "username" : "__me__"
-                  }
-                }
-              ],
-              "hideTitle" : false,
-              "id" : "E4CEBAEA-AD59-4B36-A0B8-7AC17309C8A1",
-              "imageAspect" : "poster",
-              "title" : "Movie"
-            },
-            {
-              "dataSources" : [
-                {
-                  "kind" : "traktList",
-                  "payload" : {
-                    "listName" : "Watchlist: Series",
-                    "listSlug" : "__watchlist_shows__",
-                    "traktId" : -12,
-                    "username" : "__me__"
-                  }
-                }
-              ],
-              "hideTitle" : false,
-              "id" : "CB8FF454-7275-471B-81E0-4B8744148602",
-              "imageAspect" : "poster",
-              "title" : "Série "
-            }
-          ]
+          "listName" : "Daily Picks",
+          "listSlug" : "daily-picks",
+          "traktId" : 31897770,
+          "username" : "tvgeniekodi"
         }
       },
-      "id" : "collection.229BB560-7790-4E2A-AAF6-28DF580E4CD8",
-      "title" : "Watchlist",
-      "type" : "collection.row"
+      "id" : "trakt.EF19B376-7017-4DBC-AFDC-9286AE69401D",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Daily Picks",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Watchlist: Movies",
+          "listSlug" : "__watchlist_movies__",
+          "sortBy" : "added",
+          "sortHow" : "desc",
+          "traktId" : -11,
+          "username" : "__me__"
+        }
+      },
+      "id" : "trakt.A46042E6-3530-4205-BA1A-3E57E56E088D",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Watchlist: Movies",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Watchlist: Series",
+          "listSlug" : "__watchlist_shows__",
+          "sortBy" : "added",
+          "sortHow" : "desc",
+          "traktId" : -12,
+          "username" : "__me__"
+        }
+      },
+      "id" : "trakt.4B4E640C-7C5C-4B7C-9B8E-9FE88FF9F798",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Watchlist: Series",
+      "type" : "row.classic"
     }
   ]
 }
