@@ -1,0 +1,1463 @@
+{
+  "exportType" : "fusionWidgets",
+  "exportVersion" : 1,
+  "widgets" : [
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Airing This Week",
+          "listSlug" : "__calendar_my_shows__",
+          "traktId" : -100,
+          "username" : "__calendar__"
+        }
+      },
+      "id" : "trakt.F21BBD43-5AD7-454B-9C30-05105E12B362",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Airing This Week",
+      "type" : "row.classic"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "primary_release_date.desc",
+                    "type" : "movie",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      8
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "first_air_date.desc",
+                    "type" : "tv",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      8
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "A5FADC43-8647-42C5-9D02-57744556528A",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/netflix.png",
+              "title" : "Netflix"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "primary_release_date.desc",
+                    "type" : "movie",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      119
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "first_air_date.desc",
+                    "type" : "tv",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      119
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "primevideo-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/primevideo.png",
+              "title" : "Prime Video"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "first_air_date.desc",
+                    "type" : "tv",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      350
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "primary_release_date.desc",
+                    "type" : "movie",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      350
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "appletv-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/appletv.png",
+              "title" : "Apple TV+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "primary_release_date.desc",
+                    "type" : "movie",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      337
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "first_air_date.desc",
+                    "type" : "tv",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      337
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "disney-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/disney.png",
+              "title" : "Disney+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "first_air_date.desc",
+                    "type" : "tv",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      1899
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "primary_release_date.desc",
+                    "type" : "movie",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      1899
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "hbomax-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/hbomax.png",
+              "title" : "HBO Max"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "primary_release_date.desc",
+                    "type" : "movie",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      531,
+                      2303
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "first_air_date.desc",
+                    "type" : "tv",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      531,
+                      2303
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "paramount-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/paramount.png",
+              "title" : "Paramount+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "first_air_date.desc",
+                    "type" : "tv",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      283
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 200,
+                    "sortBy" : "primary_release_date.desc",
+                    "type" : "movie",
+                    "watchRegion" : "FR",
+                    "withWatchProviders" : [
+                      283
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "crunchyroll-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/crunchyroll.png",
+              "title" : "Crunchyroll"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 30,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "videoland-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/videoland.png",
+              "title" : "Videoland"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : false,
+              "id" : "hulu-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/hulu.png",
+              "title" : "Hulu"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : false,
+              "id" : "skyshowtime-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/skyshowtime.png",
+              "title" : "SkyShowtime"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 30,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "peacock-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/peacock.png",
+              "title" : "Peacock"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 30,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "curiositystream-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/curiositystream.png",
+              "title" : "Curiosity Stream"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 30,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "discoveryplus-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/discoveryplus.png",
+              "title" : "Discovery Plus"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 30,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "bet-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/bet.png",
+              "title" : "BET+"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 30,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "magllentv-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/magllentv.png",
+              "title" : "MagllenTV"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 30,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "livetv-folder",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/files.orangebyte.io\/resources\/omni\/images\/groups\/livetv.png",
+              "title" : "Live TV"
+            }
+          ]
+        }
+      },
+      "id" : "collection.064A34A7-C8B2-4915-AF1A-3FA8A7443114",
+      "title" : "Platforms ",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      12,
+                      28
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10759
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "8B67A188-DDA0-4F36-A5BC-01455094317E",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/action-adventures-wide.png",
+              "title" : "Action-adventures"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      28,
+                      53
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10759
+                    ],
+                    "includeKeywords" : [
+                      316362
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "8DA11FE8-03F5-42F9-89F0-60E74D1E7487",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/action-thrillers-wide.png",
+              "title" : "Action-thrillers"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      28
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10759
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "0CCD3908-D53A-43D8-AFD3-B2FC0503C702",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/action-wide.png",
+              "title" : "Action"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      12
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10759
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "17CFED39-26FB-4047-8956-B13E0D8489E3",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/adventure-wide.png",
+              "title" : "Adventure"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      16
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      16
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "E6587694-D58A-456E-B20E-29D5A31C1009",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/animation-wide.png",
+              "title" : "Animation"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      35
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      35
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "E5EE3D52-30CE-4A86-B9F4-21BE33AFDC0C",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/comedy-wide.png",
+              "title" : "Comedy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      80
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      80
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7A30823E-2B69-4FD8-8103-90F55C7BF3CB",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/crime-wide.png",
+              "title" : "Crime"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "850CDF55-1C48-42FF-855D-8F8378D0E66D",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/dark-fantasy-wide.png",
+              "title" : "Dark-fantasy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      12332
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10765
+                    ],
+                    "includeKeywords" : [
+                      12332
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "00FFEE28-631D-4B7A-81B4-B2FAC8629010",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/disaster-epics-wide.png",
+              "title" : "Disaster-epics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      99
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      99
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "E4EB343F-1C43-496C-96CD-E2027D0BD9FE",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/documentary-wide.png",
+              "title" : "Documentary"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      18
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      18
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B3293A93-69C2-4574-9961-71741375FDC7",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/drama-wide.png",
+              "title" : "Drama"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      4565
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      4565
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "C93E436C-6379-4848-A7C9-64219431925A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/dystopian-futures-wide.png",
+              "title" : "Dystopian-futures"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      12,
+                      14
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10759,
+                      10765
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "05E34702-A652-46DE-9319-4094657743AF",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/fantasy-adventures-wide.png",
+              "title" : "Fantasy-adventures"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      14
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10765
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "FCE737AA-700C-4EF7-924E-7DC825E546BD",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/fantasy-wide.png",
+              "title" : "Fantasy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      27
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      315058
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "2CA627ED-0E6F-4CE7-8A30-BAE75D64DCBA",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/horror-wide.png",
+              "title" : "Horror"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10751
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10762
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "2348AB5C-C2B9-45F8-8AD6-9E79F57A5E24",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/kids-wide.png",
+              "title" : "Kids"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10402
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "FC9144A4-60A3-4F80-BAC3-5F56BB3FBE7B",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/music-wide.png",
+              "title" : "Music"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10749
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      9840
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "79849E06-C477-4650-BEA9-222F062D90EA",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/romance-wide.png",
+              "title" : "Romance"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      878
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10765
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "5EA8F347-3F53-419D-AB97-2DB582BDE827",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/sci-fi-wide.png",
+              "title" : "Sci-fi"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      878
+                    ],
+                    "includeKeywords" : [
+                      9882
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10765
+                    ],
+                    "includeKeywords" : [
+                      9882
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "DB1352AE-07E9-4F7C-95B4-A475237584D2",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/space-epics-wide.png",
+              "title" : "Space-epics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      470
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      282758
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9B0CC063-604C-4D62-ADB4-2EFDB9CB1258",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/spies-wide.png",
+              "title" : "Spies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      349186
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      349186
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "BA8D9329-98DA-4F6E-AD9B-B2D333B1602C",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/superheroes-wide.png",
+              "title" : "Superheroes"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      53
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      316362
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "FB543497-1A0D-48FD-ACD5-13659BD93442",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/thriller-wide.png",
+              "title" : "Thriller"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10752
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      10768
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "E4793FAF-4F45-46B6-9059-0EC080A0DBB3",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/war-stories-wide.png",
+              "title" : "War-stories"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      37
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeGenres" : [
+                      37
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "240D8400-AD69-4D0F-82B6-6A2540E55FAC",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/westerns-wide.png",
+              "title" : "Westerns"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      12377
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie"
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "includeKeywords" : [
+                      12377
+                    ],
+                    "limit" : 50,
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "E3E6BE03-BA5B-42CA-9190-BCBA032316D1",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/zombie-orama-wide.png",
+              "title" : "Zombie-orama"
+            }
+          ]
+        }
+      },
+      "id" : "collection.4A410EC8-CC6E-4F5F-8C2E-EA840B5E3894",
+      "title" : "Genres",
+      "type" : "collection.row"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Daily Picks",
+          "listSlug" : "daily-picks",
+          "traktId" : 31897770,
+          "username" : "tvgeniekodi"
+        }
+      },
+      "id" : "trakt.EF19B376-7017-4DBC-AFDC-9286AE69401D",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Daily Picks",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Movies",
+          "listSlug" : "latest-movies",
+          "traktId" : 30828678,
+          "username" : "tvgeniekodi"
+        }
+      },
+      "id" : "trakt.F089AF15-FBC1-440D-8863-B74160232664",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest Movies",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Shows",
+          "listSlug" : "latest-shows",
+          "traktId" : 31015440,
+          "username" : "tvgeniekodi"
+        }
+      },
+      "id" : "trakt.604EA10E-D893-49AE-BEE9-1C281ACFB462",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest Shows",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "tmdbDiscover",
+        "payload" : {
+          "limit" : 30,
+          "releaseChannel" : "digital",
+          "releaseStatus" : "released",
+          "sortBy" : "popularity.desc",
+          "type" : "movie"
+        }
+      },
+      "id" : "discover.popular",
+      "limit" : 30,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : true,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "sort" : "popularity.desc",
+      "title" : "Popular Movies",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "tmdbDiscover",
+        "payload" : {
+          "releaseChannel" : "digital",
+          "releaseStatus" : "released",
+          "sortBy" : "popularity.desc",
+          "type" : "tv"
+        }
+      },
+      "id" : "discover.CF106177-6AF6-4ACF-8A60-DF3D7E612B35",
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "sort" : "popularity.desc",
+      "title" : "Popular Series",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "tmdbDiscover",
+        "payload" : {
+          "releaseChannel" : "digital",
+          "releaseStatus" : "released",
+          "sortBy" : "trending.week",
+          "type" : "movie"
+        }
+      },
+      "id" : "discover.AC7FA6A7-3998-499F-8A90-142FDEDC6E81",
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "sort" : "trending.week",
+      "title" : "Weekly Movies",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "tmdbDiscover",
+        "payload" : {
+          "releaseChannel" : "digital",
+          "releaseStatus" : "released",
+          "sortBy" : "trending.week",
+          "type" : "tv"
+        }
+      },
+      "id" : "discover.0CB2D7E8-1670-4544-B8CD-083FEED18C82",
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "sort" : "trending.week",
+      "title" : "Weekly Series",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Trending Anime Movies",
+          "listSlug" : "trending-anime-movies",
+          "traktId" : 30828755,
+          "username" : "tvgeniekodi"
+        }
+      },
+      "id" : "trakt.80EA8972-8E6D-43FF-93B7-9254E44C29C4",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Trending Anime Movies",
+      "type" : "row.classic"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Watchlist: Movies",
+                    "listSlug" : "__watchlist_movies__",
+                    "traktId" : -11,
+                    "username" : "__me__"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "E4CEBAEA-AD59-4B36-A0B8-7AC17309C8A1",
+              "imageAspect" : "poster",
+              "title" : "Movie"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Watchlist: Series",
+                    "listSlug" : "__watchlist_shows__",
+                    "traktId" : -12,
+                    "username" : "__me__"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "CB8FF454-7275-471B-81E0-4B8744148602",
+              "imageAspect" : "poster",
+              "title" : "Série "
+            }
+          ]
+        }
+      },
+      "id" : "collection.229BB560-7790-4E2A-AAF6-28DF580E4CD8",
+      "title" : "Watchlist",
+      "type" : "collection.row"
+    }
+  ]
+}
